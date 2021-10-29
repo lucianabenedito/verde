@@ -1,0 +1,63 @@
+body {
+    font-family: Arial;
+    background-image: url(https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    background-color: lightgreen;
+    height:100%vh;
+}
+    
+ h1 {
+     text-align: center;
+     color: green;
+ }
+
+
+ p {
+    line-height: 30px;
+ }
+ 
+
+ .conteudo {
+    margin: auto; 
+    margin-top: 200px;
+    padding: 40px;
+    background-color: white;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+
+
+}
+
+.enfase {
+    text-align: right;
+  
+}
+
+.botao {
+    display:grid;
+    place-content: center;
+    background-color: darkgreen;
+    color :white;
+    padding: 40px
+    margin-left: 40px
+    margin-right: 40px
+    text-decoration: none;
+    border-radius: 10px;
+    text-transform:uppercase;
+
+
+
+
+}
+
+.botao:hover {
+    background-color: lightgreen;
+    cursor: crosshair
+}
+
+    
